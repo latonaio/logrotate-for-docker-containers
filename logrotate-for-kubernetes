@@ -1,0 +1,5 @@
+/var/lib/docker/containers/*/*.log {
+        rotate 3
+        size 100M
+        copytruncate
+}
