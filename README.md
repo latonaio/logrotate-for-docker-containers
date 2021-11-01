@@ -11,7 +11,7 @@ logrotate-for-docker-containers は、以下の動作環境を前提としてい
 - OS: Linux OS
 - CPU: ARM/AMD/Intel
 
-# 設定
+## 設定
 1. 前提
     前提として、logrotateがインストールされていることを確認してください。
 
@@ -42,7 +42,7 @@ logrotate-for-docker-containers は、以下の動作環境を前提としてい
 
     ```
 
-# 設定詳細
+## 設定詳細
 logrotate-for-docker-containers は、以下の設定がされています。
 ```
 /var/lib/docker/containers/*/*.log  # 実行の対象となるログファイル {
